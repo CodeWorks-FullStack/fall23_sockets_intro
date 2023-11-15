@@ -1,0 +1,7 @@
+export const dev = window.location.origin.includes('localhost')
+export const baseURL = dev ? 'http://localhost:3000' : ''
+// STEP 1 enable the sockets
+export const useSockets = true
+export const domain = 'jeremyisthebestatcoding.us.auth0.com'
+export const clientId = 'MWLLUaPnBBGVnydj1FoqRH2zuMb1aio1'
+export const audience = 'https://jeremyissmart.com'
